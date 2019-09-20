@@ -1,0 +1,126 @@
+# Translation of Themes - EmpowerWP in Turkish
+# This file is distributed under the same license as the Themes - EmpowerWP package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-03-18 16:47:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: tr\n"
+"Project-Id-Version: Themes - EmpowerWP\n"
+
+#. Theme Name of the theme
+msgid "EmpowerWP"
+msgstr "EmpowerWP"
+
+#. Description of the theme
+msgid "EmpowerWP is an incredibly flexible, multipurpose WordPress theme that can help you create an amazing website easier than ever, by drag and drop. It comes with a predesigned home page, 5 header designs and over 30 ready to use content sections that you can easily customize. It also has lots of customization options (video background, slideshow background, header content types, gradient overlays, etc) that will help you create a beautiful, unique website in no time. Empower is responsive so it works on mobile devices out of the box and it is also WooCommerce ready."
+msgstr "EmpowerWP, inanılmaz derecede esnek, sürükle bırak yardımıyla en kolay şekilde harita web siteleri oluşturmanıza olanak sağlayan çok amaçlı bir WordPress temasıdır. Önceden tasarlanmış bir ana sayfa, 5 üst bölüm tasarımı ve kolayca özelleştirebileceğiniz kullanıma hazır 30'un üstünde içerik bölümüyle beraber gelmektedir. Ayrıca bir çok özelleştirme seçeneği (video arka plan, slayt gösterisi arka plan, üst bölüm içerik tipleri, renk geçişi örtüleri vb.) kısa sürede eşsiz, güzel bir web sitesi oluşturmanıza yardımcı olur. EmpowerWP duyarlı tasarıma sahiptir, yani kutudan çıktığı gibi mobil cihazlarda çalışır. Ayrıca WooCommerce için de hazırdır."
+
+#: template-parts/blog-meta.php:13
+msgid "in"
+msgstr "kategorisi"
+
+#: sidebar.php:27
+msgid "About the author"
+msgstr "Yazar hakkında"
+
+#: sidebar.php:20
+msgid "Author bio info example. This area will appear only if the user Biographical Info is filled"
+msgstr "Yazar bilgisi örneği. Bu alan sadece kullanıcı biyografik bilgi alanını doldurduysa görünür hale gelir"
+
+#: functions.php:161
+msgid "Built using WordPress and the %s"
+msgstr "WordPress ve %s ile oluşturulmuştur"
+
+#: template-parts/blog-meta.php:12 template-parts/content-post-meta.php:8
+#: template-parts/content-post-single-header.php:11
+msgid "by"
+msgstr "yazarı"
+
+#: functions.php:133
+msgid "EmpowerWP Demos"
+msgstr "EmpowerWP örnek siteler"
+
+#: functions.php:128
+msgid "EmpowerWP Info"
+msgstr "EmpowerWP bilgi"
+
+#: functions.php:138
+msgid "EmpowerWP PRO"
+msgstr "EmpowerWP PRO"
+
+#: template-parts/content-none.php:12
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Görünen o ki bakındığınız her ne ise bulamıyoruz. Belki arama özelliği yardımcı olabilir."
+
+#: functions.php:146
+msgid "Mesmerize Companion plugin adds drag and drop functionality and many other features to the EmpowerWP theme."
+msgstr "Mesmerize Companion eklentisi EmpowerWP temasına sürükle bırak becerisi ve daha bir çok özellik ekler."
+
+#: template-parts/content-single.php:34
+msgid "Next post:"
+msgstr "Sonraki yazı:"
+
+#: template-parts/content-single.php:33
+msgid "Next:"
+msgstr "Sonraki:"
+
+#: template-parts/content-none.php:4
+msgid "Nothing Found"
+msgstr "Hiçbir şey bulunamadı"
+
+#: template-parts/blog-meta.php:14 template-parts/content-post-meta.php:10
+#: template-parts/content-post-single-header.php:12
+msgid "on"
+msgstr "açık"
+
+#: template-parts/content-single.php:20
+msgid "Page"
+msgstr "Sayfa"
+
+#: template-parts/content-page.php:6 template-parts/content-single.php:16
+msgid "Pages:"
+msgstr "Sayfalar:"
+
+#: template-parts/content-single.php:38
+msgid "Previous post:"
+msgstr "Önceki yazı:"
+
+#: template-parts/content-single.php:37
+msgid "Previous:"
+msgstr "Önceki:"
+
+#: template-parts/content-none.php:7
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "İlk yazınızı yayımlamak için hazır mısınız? <a href=\"%1$s\">Buradan başlayın</a>."
+
+#: inc/blog-options.php:9
+msgid "Show author bio in sidebar"
+msgstr "Kenar çubuğunda yazar bilgisini göster"
+
+#: template-parts/content-none.php:9
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Üzgünüz, arama terimlerinizle hiçbir şey eşleşmedi. Lütfen farklı anahtar kelimelerle tekrar deneyin."
+
+#: functions.php:142
+msgid "Thank you for choosing EmpowerWP!"
+msgstr "EmpowerWP temasını seçtiğiniz için teşekkürler!"
+
+#: inc/admin.php:49
+msgid "To enable all the theme features, please install the companion plugin"
+msgstr "Tüm tema özelliklerini etkinleştirmek için, lütfen eşlikçi eklentiyi yükleyin"
+
+#: functions.php:166
+msgid "Y"
+msgstr "Y"
+
+#. Author of the theme
+msgid "Extend Themes"
+msgstr "Extend Themes"
+
+#. Author URI of the theme
+msgid "https://extendthemes.com/"
+msgstr "https://extendthemes.com/"

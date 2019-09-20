@@ -1,0 +1,48 @@
+
+---Downloaded files---
+The import files for: Personal were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/ugurreker/ugurreker
+Data file = C:/wamp64/www/ugurreker/ugurreker/wp-content/uploads/2019/09/mesmerize-ocdi/demo-content-import-file_2019-09-17__18-54-51.xml
+Widget file = C:/wamp64/www/ugurreker/ugurreker/wp-content/uploads/2019/09/mesmerize-ocdi/demo-widgets-import-file_2019-09-17__18-54-51.json
+Customizer file = C:/wamp64/www/ugurreker/ugurreker/wp-content/uploads/2019/09/mesmerize-ocdi/demo-customizer-import-file_2019-09-17__18-54-51.dat
+Redux files:
+not defined!
+
+---pt-ocdi/before_content_import---
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar widget area : 
+
+Resim - Hey! I&#039;m John Doe! - Imported
+Ara - No Title - Widget already exists
+Son Yazılar - No Title - Widget already exists
+Son Yorumlar - No Title - Widget already exists
+Arşivler - No Title - Widget already exists
+Kategoriler - No Title - Widget already exists
+Etiket Bulutu - Tags - Imported
+Meta - No Title - Widget already exists
+
+Pages Sidebar : 
+
+Ara - Search - Imported
+Sayfalar - Pages - Imported
+Metin - Text Box - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+
