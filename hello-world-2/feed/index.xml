@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Android Cihazda veri kaybetmeden sıfırlama yazısına yapılan yorumlar	</title>
+	<atom:link href="/https://ugurreker.github.io/ugurreker/hello-world-2/feed/" rel="self" type="application/rss+xml" />
+	<link>/https://ugurreker.github.io/ugurreker/hello-world-2/</link>
+	<description>Bilişim ve Teknoloji</description>
+	<lastBuildDate>Thu, 19 Sep 2019 16:01:07 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.3</generator>
+			<item>
+				<title>
+				Yazar: A WordPress Commenter				</title>
+				<link>/https://ugurreker.github.io/ugurreker/hello-world-2/#comment-2</link>
+		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
+		<pubDate>Mon, 26 Feb 2018 18:39:59 +0000</pubDate>
+		<guid isPermaLink="false">http://pixelcool.go.ro/free-1/?p=1#comment-2</guid>
+					<description><![CDATA[Hi, this is a comment.
+To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
+Commenter avatars come from &lt;a href=\&quot;https://gravatar.com\&quot;/ rel=\&quot;nofollow\&quot;&gt;Gravatar&lt;/a&gt;.]]></description>
+		<content:encoded><![CDATA[<p>Hi, this is a comment.<br />
+To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.<br />
+Commenter avatars come from <a href=\"https://gravatar.com/" rel=\"nofollow\">Gravatar</a>.</p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

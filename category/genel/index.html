@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+
+	    <script>
+        (function (exports, d) {
+            var _isReady = false,
+                _event,
+                _fns = [];
+
+            function onReady(event) {
+                d.removeEventListener("DOMContentLoaded", onReady);
+                _isReady = true;
+                _event = event;
+                _fns.forEach(function (_fn) {
+                    var fn = _fn[0],
+                        context = _fn[1];
+                    fn.call(context || exports, window.jQuery);
+                });
+            }
+
+            function onReadyIe(event) {
+                if (d.readyState === "complete") {
+                    d.detachEvent("onreadystatechange", onReadyIe);
+                    _isReady = true;
+                    _event = event;
+                    _fns.forEach(function (_fn) {
+                        var fn = _fn[0],
+                            context = _fn[1];
+                        fn.call(context || exports, event);
+                    });
+                }
+            }
+
+            d.addEventListener && d.addEventListener("DOMContentLoaded", onReady) ||
+            d.attachEvent && d.attachEvent("onreadystatechange", onReadyIe);
+
+            function domReady(fn, context) {
+                if (_isReady) {
+                    fn.call(context, _event);
+                }
+
+                _fns.push([fn, context]);
+            }
+
+            exports.mesmerizeDomReady = domReady;
+        })(window, document);
+    </script>
+    <title>Genel &#8211; Eker Bilişim</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Eker Bilişim &raquo; beslemesi" href="/https://ugurreker.github.io/ugurreker/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Eker Bilişim &raquo; yorum beslemesi" href="/https://ugurreker.github.io/ugurreker/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Eker Bilişim &raquo; Genel kategori beslemesi" href="/https://ugurreker.github.io/ugurreker/category/genel/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.3"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='/https://ugurreker.github.io/ugurreker/wp-includes/css/dist/block-library/style.min.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='/https://ugurreker.github.io/ugurreker/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='mesmerize-style-css'  href='/https://ugurreker.github.io/ugurreker/wp-content/themes/mesmerize/style.min.css?ver=1.6.85' type='text/css' media='all' />
+<style id='mesmerize-style-inline-css' type='text/css'>
+img.logo.dark, img.custom-logo{width:auto;max-height:70px !important;}
+/** cached kirki style */@media screen and (min-width: 768px){.header-homepage{background-position:center bottom;}.header{background-position:right bottom;}}.header.color-overlay:before{background:#1F1F25;}.header .background-overlay,.header.color-overlay::before{opacity:0.7;}.header-homepage .header-description-row{padding-top:10%;padding-bottom:10%;}.inner-header-description{padding-top:1%;padding-bottom:1%;}@media screen and (max-width:767px){.header-homepage .header-description-row{padding-top:3%;padding-bottom:170%;}}@media only screen and (min-width: 768px){.header-content .align-holder{width:50%!important;}.inner-header-description{text-align:left!important;}}
+</style>
+<link rel='stylesheet' id='mesmerize-style-bundle-css'  href='/https://ugurreker.github.io/ugurreker/wp-content/themes/mesmerize/assets/css/theme.bundle.min.css?ver=1.6.85' type='text/css' media='all' />
+<link rel='stylesheet' id='mesmerize-fonts-css'   data-href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%7CMuli%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C900%2C900italic%7CPlayfair+Display%3A400%2C400italic%2C700%2C700italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<script type='text/javascript' src='/https://ugurreker.github.io/ugurreker/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript'>
+    
+        (function () {
+            function setHeaderTopSpacing() {
+
+                setTimeout(function() {
+                  var headerTop = document.querySelector('.header-top');
+                  var headers = document.querySelectorAll('.header-wrapper .header,.header-wrapper .header-homepage');
+
+                  for (var i = 0; i < headers.length; i++) {
+                      var item = headers[i];
+                      item.style.paddingTop = headerTop.getBoundingClientRect().height + "px";
+                  }
+
+                    var languageSwitcher = document.querySelector('.mesmerize-language-switcher');
+
+                    if(languageSwitcher){
+                        languageSwitcher.style.top = "calc( " +  headerTop.getBoundingClientRect().height + "px + 1rem)" ;
+                    }
+                    
+                }, 100);
+
+             
+            }
+
+            window.addEventListener('resize', setHeaderTopSpacing);
+            window.mesmerizeSetHeaderTopSpacing = setHeaderTopSpacing
+            mesmerizeDomReady(setHeaderTopSpacing);
+        })();
+    
+    
+</script>
+<script type='text/javascript' src='/https://ugurreker.github.io/ugurreker/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='/https://ugurreker.github.io/ugurreker/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/https://ugurreker.github.io/ugurreker/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/https://ugurreker.github.io/ugurreker/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2.3" />
+    <script type="text/javascript" data-name="async-styles">
+        (function () {
+            var links = document.querySelectorAll('link[data-href]');
+            for (var i = 0; i < links.length; i++) {
+                var item = links[i];
+                item.href = item.getAttribute('data-href')
+            }
+        })();
+    </script>
+    		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		    <style id="page-content-custom-styles">
+            </style>
+        <style data-name="background-content-colors">
+        .mesmerize-inner-page .page-content,
+        .mesmerize-inner-page .content,
+        .mesmerize-front-page.mesmerize-content-padding .page-content {
+            background-color: #F5FAFD;
+        }
+    </style>
+    </head>
+
+<body class="archive category category-genel category-1 overlap-first-section mesmerize-inner-page">
+    <style>
+        .screen-reader-text[href="#page-content"]:focus {
+            background-color: #f1f1f1;
+            border-radius: 3px;
+            box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+            clip: auto !important;
+            clip-path: none;
+            color: #21759b;
+           
+        }
+    </style>
+    <a class="skip-link screen-reader-text" href="#page-content">Skip to content</a>
+    
+<div  id="page-top" class="header-top">
+		<div class="navigation-bar"  data-sticky='0'  data-sticky-mobile='1'  data-sticky-to='top' >
+    <div class="navigation-wrapper">
+    	<div class="row basis-auto">
+	        <div class="logo_col col-xs col-sm-fit">
+	            <a class="text-logo" data-type="group"  data-dynamic-mod="true" href="/https://ugurreker.github.io/ugurreker/">Eker<span style="font-weight: 300;" class="span12"> Bilişim</span></a>	        </div>
+	        <div class="main_menu_col col-xs">
+	            <div id="mainmenu_container" class="row"><ul id="main_menu" class="active-line-bottom main-menu dropdown-menu"><li id="menu-item-310" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-310"><a href="/https://ugurreker.github.io/ugurreker/">Home</a></li>
+<li id="menu-item-309" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-309"><a href="/https://ugurreker.github.io/ugurreker/blog/">Blog</a></li>
+<li id="menu-item-311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-311"><a href="/https://ugurreker.github.io/ugurreker/sample-page/">Sample Page</a></li>
+</ul></div>    <a href="#" data-component="offcanvas" data-target="#offcanvas-wrapper" data-direction="right" data-width="300px" data-push="false">
+        <div class="bubble"></div>
+        <i class="fa fa-bars"></i>
+    </a>
+    <div id="offcanvas-wrapper" class="hide force-hide  offcanvas-right">
+        <div class="offcanvas-top">
+            <div class="logo-holder">
+                <a class="text-logo" data-type="group"  data-dynamic-mod="true" href="/https://ugurreker.github.io/ugurreker/">Eker<span style="font-weight: 300;" class="span12"> Bilişim</span></a>            </div>
+        </div>
+        <div id="offcanvas-menu" class="menu-main-menu-container"><ul id="offcanvas_menu" class="offcanvas_menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-310"><a href="/https://ugurreker.github.io/ugurreker/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-309"><a href="/https://ugurreker.github.io/ugurreker/blog/">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-311"><a href="/https://ugurreker.github.io/ugurreker/sample-page/">Sample Page</a></li>
+</ul></div>
+            </div>
+    	        </div>
+	    </div>
+    </div>
+</div>
+</div>
+
+<div id="page" class="site">
+    <div class="header-wrapper">
+        <div  class='header  color-overlay  custom-mobile-image' style='; background-image:url(&quot;/wp-content/uploads/2019/09/cropped-stephan-valentin-345970-1.jpg&quot;); background-color:#31323A' data-parallax-depth='20'>
+            								    <div class="inner-header-description gridContainer">
+        <div class="row header-description-row">
+    <div class="col-xs col-xs-12">
+        <h1 class="hero-title">
+            Kategori: Genel        </h1>
+                    <p class="header-subtitle">Bilişim ve Teknoloji</p>
+            </div>
+        </div>
+    </div>
+        <script>
+        window.mesmerizeSetHeaderTopSpacing();
+    </script>
+                        </div>
+    </div>
+
+    <div id='page-content' class="content blog-page">
+        <div class="gridContainer gridContainer content">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-9">
+                    <div class="post-list row"   >
+                        <div class="post-list-item col-xs-12 space-bottom col-sm-12 col-md-12" data-masonry-width="col-md-12">
+    <div id="post-1" class="blog-post card  post-1 post type-post status-publish format-standard hentry category-genel">
+        <div class="post-content">
+      
+                <div class="post-thumbnail">
+        <a href="/https://ugurreker.github.io/ugurreker/bilgsayara-format-atma/" class="post-list-item-thumb">
+                            
+                                    <svg class="mesmerize-post-list-item-thumb-placeholder" width="890" height="580" viewbox="0 0 890 580" preserveaspectratio="none">
+                        <rect width="890" height="580" style="fill:#FF9800;"></rect>
+                    </svg>
+                                    </a>
+    </div>
+    
+            <div class="col-xs-12 col-padding col-padding-xs">
+                <h3 class="post-title">
+                    <a href="/https://ugurreker.github.io/ugurreker/bilgsayara-format-atma/" rel="bookmark">
+                        Bilgisayara Format atma                    </a>
+                </h3>
+                <div class="post-meta small muted space-bottom-small">
+    <span class="date">17 Eylül 2019</span>
+</div>
+
+
+                <div class="post-excerpt">
+                    <p>Bilgisayara format atmak eskisi gibi zor birişey değil, aksine artık daha da kolaylaştı. Eskiden DVD&#8217;ye İSO dosyası şeklinde yazdırmak var iken, artık Sıkıştırılmış Dosya&#8217;dan (Winzip yada Winrar) çıkartıp bunu bir Flash belleğe kopyalayarak artık Format atabilirsiniz. Artık Format atmak okadar kolaylaştı ki, Proğram yükler gibi sürekli &#8220;Devam&#8221; tuşuna basarak artık Format atabilirsiniz. Detaylı anlatım için&hellip; <br /> <a class="read-more" href="/https://ugurreker.github.io/ugurreker/bilgsayara-format-atma/">Devamı</a></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+                    </div>
+                    <div class="navigation-c">
+                                            </div>
+                </div>
+                
+<div class="sidebar col-sm-4 col-md-3">
+    <div class="sidebar-row">
+        <div id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="/https://ugurreker.github.io/ugurreker/">
+    <label>
+        <span class="screen-reader-text">Arama:</span>
+        <input type="search" class="search-field" placeholder="Ara &hellip;" value="" name="s"/>
+    </label>
+</form>
+</div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h5 class="widgettitle">Son Yazılar</h5>		<ul>
+											<li>
+					<a href="/https://ugurreker.github.io/ugurreker/bilgsayara-format-atma/">Bilgisayara Format atma</a>
+									</li>
+											<li>
+					<a href="/https://ugurreker.github.io/ugurreker/hello-world-2/">Android Cihazda veri kaybetmeden sıfırlama</a>
+									</li>
+											<li>
+					<a href="/https://ugurreker.github.io/ugurreker/theres-a-voice-that-keeps-on-calling-me/">There&#8217;s a voice that keeps on calling me</a>
+									</li>
+											<li>
+					<a href="/https://ugurreker.github.io/ugurreker/80-days-around-the-world/">80 days around the world</a>
+									</li>
+					</ul>
+		</div><div id="recent-comments-2" class="widget widget_recent_comments"><h5 class="widgettitle">Son Yorumlar</h5><ul id="recentcomments"><li class="recentcomments"><a href="/https://ugurreker.github.io/ugurreker/bilgsayara-format-atma/#comment-1">Bilgisayara Format atma</a> için <span class="comment-author-link"><a href='https://wordpress.org/' rel='external nofollow' class='url'>Bir WordPress yorumcusu</a></span></li><li class="recentcomments"><a href="/https://ugurreker.github.io/ugurreker/hello-world-2/#comment-2">Android Cihazda veri kaybetmeden sıfırlama</a> için <span class="comment-author-link"><a href='https://wordpress.org/' rel='external nofollow' class='url'>A WordPress Commenter</a></span></li></ul></div><div id="archives-2" class="widget widget_archive"><h5 class="widgettitle">Arşivler</h5>		<ul>
+				<li><a href='/https://ugurreker.github.io/ugurreker/2019/09/'>Eylül 2019</a></li>
+	<li><a href='/https://ugurreker.github.io/ugurreker/2018/02/'>Şubat 2018</a></li>
+		</ul>
+			</div><div id="categories-2" class="widget widget_categories"><h5 class="widgettitle">Kategoriler</h5>		<ul>
+				<li class="cat-item cat-item-1 current-cat"><a href="/https://ugurreker.github.io/ugurreker/category/genel/">Genel</a>
+</li>
+	<li class="cat-item cat-item-2"><a href="/https://ugurreker.github.io/ugurreker/category/uncategorized/">Uncategorized</a>
+</li>
+		</ul>
+			</div><div id="meta-2" class="widget widget_meta"><h5 class="widgettitle">Meta</h5>			<ul>
+						<li><a href="/https://ugurreker.github.io/ugurreker/wp-login.php">Giriş</a></li>
+			<li><a href="/https://ugurreker.github.io/ugurreker/feed/">Yazılar <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="/https://ugurreker.github.io/ugurreker/comments/feed/">Yorumlar <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.org/" title="WordPress&#8217;in desteğiyle, kişisel yayım ortamı.">WordPress.org</a></li>			</ul>
+			</div><div id="media_image-1" class="widget widget_media_image"><h5 class="widgettitle">Hey! I&#8217;m John Doe!</h5><img width="300" height="169" src="/https://ugurreker.github.io/ugurreker/wp-content/uploads/2018/02/pexels-photo-213117-1-300x169.jpg" class="image wp-image-13  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" srcset="/https://ugurreker.github.io/ugurreker/wp-content/uploads/2018/02/pexels-photo-213117-1-300x169.jpg 300w, /https://ugurreker.github.io/ugurreker/wp-content/uploads/2018/02/pexels-photo-213117-1-768x432.jpg 768w, /https://ugurreker.github.io/ugurreker/wp-content/uploads/2018/02/pexels-photo-213117-1-1024x576.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></div>    </div>
+</div>
+            </div>
+        </div>
+    </div>
+
+	<div  class='footer footer-simple'>
+    <div  class='footer-content center-xs'>
+        <div class="gridContainer">
+	        <div class="row middle-xs footer-content-row">
+	            <div class="footer-content-col col-xs-12">
+	                    <p  class="copyright">&copy;&nbsp;&nbsp;2019&nbsp;Eker Bilişim.&nbsp;Wordpress ve <a target="_blank" href="https://extendthemes.com/go/built-with-mesmerize/" class="mesmerize-theme-link">Mesmerize temasıyla</a> oluşturulmuştur.</p>	            </div>
+	        </div>
+	    </div>
+    </div>
+</div>
+	</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/https://ugurreker.github.io/ugurreker/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.4'></script>
+<script type='text/javascript'  defer="defer" src='/https://ugurreker.github.io/ugurreker/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript'  defer="defer" src='/https://ugurreker.github.io/ugurreker/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript'  defer="defer" src='/https://ugurreker.github.io/ugurreker/wp-content/themes/mesmerize/assets/js/theme.bundle.min.js?ver=1.6.85'></script>
+<script type='text/javascript'  defer="defer" src='/https://ugurreker.github.io/ugurreker/wp-includes/js/wp-embed.min.js?ver=5.2.3'></script>
+    <script>
+        /(trident|msie)/i.test(navigator.userAgent) && document.getElementById && window.addEventListener && window.addEventListener("hashchange", function() {
+            var t, e = location.hash.substring(1);
+            /^[A-z0-9_-]+$/.test(e) && (t = document.getElementById(e)) && (/^(?:a|select|input|button|textarea)$/i.test(t.tagName) || (t.tabIndex = -1), t.focus())
+        }, !1);
+    </script>
+</body>
+</html>

@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+
+	    <script>
+        (function (exports, d) {
+            var _isReady = false,
+                _event,
+                _fns = [];
+
+            function onReady(event) {
+                d.removeEventListener("DOMContentLoaded", onReady);
+                _isReady = true;
+                _event = event;
+                _fns.forEach(function (_fn) {
+                    var fn = _fn[0],
+                        context = _fn[1];
+                    fn.call(context || exports, window.jQuery);
+                });
+            }
+
+            function onReadyIe(event) {
+                if (d.readyState === "complete") {
+                    d.detachEvent("onreadystatechange", onReadyIe);
+                    _isReady = true;
+                    _event = event;
+                    _fns.forEach(function (_fn) {
+                        var fn = _fn[0],
+                            context = _fn[1];
+                        fn.call(context || exports, event);
+                    });
+                }
+            }
+
+            d.addEventListener && d.addEventListener("DOMContentLoaded", onReady) ||
+            d.attachEvent && d.attachEvent("onreadystatechange", onReadyIe);
+
+            function domReady(fn, context) {
+                if (_isReady) {
+                    fn.call(context, _event);
+                }
+
+                _fns.push([fn, context]);
+            }
+
+            exports.mesmerizeDomReady = domReady;
+        })(window, document);
+    </script>
+    <title>Eker Bilişim &#8211; Bilişim ve Teknoloji</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Eker Bilişim &raquo; beslemesi" href="/https://ugurreker.github.io/ugurreker/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Eker Bilişim &raquo; yorum beslemesi" href="/https://ugurreker.github.io/ugurreker/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.3"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='companion-bundle-css'   data-href='/wp-content/plugins/mesmerize-companion/theme-data/mesmerize/assets/css/companion.bundle.min.css?ver=1.6.110' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='/https://ugurreker.github.io/ugurreker/wp-includes/css/dist/block-library/style.min.css?ver=5.2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='/https://ugurreker.github.io/ugurreker/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='mesmerize-style-css'  href='/https://ugurreker.github.io/ugurreker/wp-content/themes/mesmerize/style.min.css?ver=1.6.85' type='text/css' media='all' />
+<style id='mesmerize-style-inline-css' type='text/css'>
+img.logo.dark, img.custom-logo{width:auto;max-height:70px !important;}
+/** cached kirki style */@media screen and (min-width: 768px){.header-homepage{background-position:center bottom;}.header{background-position:right bottom;}}.header.color-overlay:before{background:#1F1F25;}.header .background-overlay,.header.color-overlay::before{opacity:0.7;}.header-homepage .header-description-row{padding-top:10%;padding-bottom:10%;}.inner-header-description{padding-top:1%;padding-bottom:1%;}@media screen and (max-width:767px){.header-homepage .header-description-row{padding-top:3%;padding-bottom:170%;}}@media only screen and (min-width: 768px){.header-content .align-holder{width:50%!important;}.inner-header-description{text-align:left!important;}}
+</style>
+<link rel='stylesheet' id='mesmerize-style-bundle-css'  href='/https://ugurreker.github.io/ugurreker/wp-content/themes/mesmerize/assets/css/theme.bundle.min.css?ver=1.6.85' type='text/css' media='all' />
+<link rel='stylesheet' id='mesmerize-fonts-css'   data-href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%7CMuli%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C900%2C900italic%7CPlayfair+Display%3A400%2C400italic%2C700%2C700italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<script type='text/javascript' src='/https://ugurreker.github.io/ugurreker/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript'>
+    
+        (function () {
+            function setHeaderTopSpacing() {
+
+                setTimeout(function() {
+                  var headerTop = document.querySelector('.header-top');
+                  var headers = document.querySelectorAll('.header-wrapper .header,.header-wrapper .header-homepage');
+
+                  for (var i = 0; i < headers.length; i++) {
+                      var item = headers[i];
+                      item.style.paddingTop = headerTop.getBoundingClientRect().height + "px";
+                  }
+
+                    var languageSwitcher = document.querySelector('.mesmerize-language-switcher');
+
+                    if(languageSwitcher){
+                        languageSwitcher.style.top = "calc( " +  headerTop.getBoundingClientRect().height + "px + 1rem)" ;
+                    }
+                    
+                }, 100);
+
+             
+            }
+
+            window.addEventListener('resize', setHeaderTopSpacing);
+            window.mesmerizeSetHeaderTopSpacing = setHeaderTopSpacing
+            mesmerizeDomReady(setHeaderTopSpacing);
+        })();
+    
+    
+</script>
+<script type='text/javascript' src='/https://ugurreker.github.io/ugurreker/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='/https://ugurreker.github.io/ugurreker/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/https://ugurreker.github.io/ugurreker/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/https://ugurreker.github.io/ugurreker/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2.3" />
+<link rel="canonical" href="/https://ugurreker.github.io/ugurreker/" />
+<link rel='shortlink' href='/https://ugurreker.github.io/ugurreker/' />
+<link rel="alternate" type="application/json+oembed" href="/https://ugurreker.github.io/ugurreker/wp-json/oembed/1.0/embed?url=%2F" />
+<link rel="alternate" type="text/xml+oembed" href="/https://ugurreker.github.io/ugurreker/wp-json/oembed/1.0/embed?url=%2F&#038;format=xml" />
+    <style data-name="header-overlap-with">
+        @media screen and (min-width: 768px) {
+            .mesmerize-front-page.overlap-first-section:not(.mesmerize-front-page-with-slider) .header-homepage {
+                padding-bottom: 95px;
+            }
+
+            .mesmerize-front-page.overlap-first-section:not(.mesmerize-front-page-with-slider) .page-content div[data-overlap]:first-of-type > div:not([class*="section-separator"]) {
+                margin-top: -95px;
+            }
+        }
+    </style>
+    
+    
+    <style type="text/css" data-name="custom-mobile-image-position">
+        @media screen and (max-width: 767px) {
+            /*Custom mobile position*/
+        .header-homepage {
+            background-position: 50% 0px;
+        }
+        }
+    </style>
+
+            <style type="text/css" data-name="custom-mobile-image">
+
+            /*Custom mobile image*/
+            @media screen and (max-width: 767px) {
+                .custom-mobile-image:not(.header-slide) {
+                    background-image: url(/https://ugurreker.github.io/ugurreker/wp-content/uploads/2019/09/hero-2-1-mobile-1.jpg) !important;
+                }
+            }
+
+
+        </style>
+
+    
+        <script type="text/javascript" data-name="async-styles">
+        (function () {
+            var links = document.querySelectorAll('link[data-href]');
+            for (var i = 0; i < links.length; i++) {
+                var item = links[i];
+                item.href = item.getAttribute('data-href')
+            }
+        })();
+    </script>
+    		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		    <style id="page-content-custom-styles">
+            </style>
+        <style data-name="background-content-colors">
+        .mesmerize-inner-page .page-content,
+        .mesmerize-inner-page .content,
+        .mesmerize-front-page.mesmerize-content-padding .page-content {
+            background-color: #F5FAFD;
+        }
+    </style>
+    </head>
+
+<body class="home page-template page-template-page-templates page-template-homepage page-template-page-templateshomepage-php page page-id-65 overlap-first-section mesmerize-front-page mesmerize-content-no-padding">
+    <style>
+        .screen-reader-text[href="#page-content"]:focus {
+            background-color: #f1f1f1;
+            border-radius: 3px;
+            box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+            clip: auto !important;
+            clip-path: none;
+            color: #21759b;
+           
+        }
+    </style>
+    <a class="skip-link screen-reader-text" href="#page-content">Skip to content</a>
+    <div id="page-top" class="header-top homepage">
+		<div class="navigation-bar homepage"  data-sticky='0'  data-sticky-mobile='1'  data-sticky-to='top' >
+    <div class="navigation-wrapper">
+    	<div class="row basis-auto">
+	        <div class="logo_col col-xs col-sm-fit">
+	            <a class="text-logo" data-type="group"  data-dynamic-mod="true" href="/https://ugurreker.github.io/ugurreker/">Eker<span style="font-weight: 300;" class="span12"> Bilişim</span></a>	        </div>
+	        <div class="main_menu_col col-xs">
+	            <div id="mainmenu_container" class="row"><ul id="main_menu" class="active-line-bottom main-menu dropdown-menu"><li id="menu-item-310" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-65 current_page_item menu-item-310"><a href="/https://ugurreker.github.io/ugurreker/" aria-current="page">Home</a></li>
+<li id="menu-item-309" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-309"><a href="/https://ugurreker.github.io/ugurreker/blog/">Blog</a></li>
+<li id="menu-item-311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-311"><a href="/https://ugurreker.github.io/ugurreker/sample-page/">Sample Page</a></li>
+</ul></div>    <a href="#" data-component="offcanvas" data-target="#offcanvas-wrapper" data-direction="right" data-width="300px" data-push="false">
+        <div class="bubble"></div>
+        <i class="fa fa-bars"></i>
+    </a>
+    <div id="offcanvas-wrapper" class="hide force-hide  offcanvas-right">
+        <div class="offcanvas-top">
+            <div class="logo-holder">
+                <a class="text-logo" data-type="group"  data-dynamic-mod="true" href="/https://ugurreker.github.io/ugurreker/">Eker<span style="font-weight: 300;" class="span12"> Bilişim</span></a>            </div>
+        </div>
+        <div id="offcanvas-menu" class="menu-main-menu-container"><ul id="offcanvas_menu" class="offcanvas_menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-65 current_page_item menu-item-310"><a href="/https://ugurreker.github.io/ugurreker/" aria-current="page">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-309"><a href="/https://ugurreker.github.io/ugurreker/blog/">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-311"><a href="/https://ugurreker.github.io/ugurreker/sample-page/">Sample Page</a></li>
+</ul></div>
+            </div>
+    	        </div>
+	    </div>
+    </div>
+</div>
+</div>
+
+
+<div id="page" class="site">
+
+	        <div class="header-wrapper">
+            <div  class='header-homepage  custom-mobile-image' style='; background-image:url(&quot;/wp-content/uploads/2019/09/hero-2-1.jpg&quot;); background-color:#6a73da; min-height:100vh'>
+                                                
+    <div class="header-description gridContainer content-on-left">
+        <div class="row header-description-row">
+    <div class="header-content header-content-left col-sm-12 col-xs-12">
+        <div class="align-holder left">
+            <h1 class="hero-title">Bireysel ve Kurumsal Çözümler için en doğru adres!</h1><p class="header-subtitle">ister sadece Cep Telefonu, ister Kamera kurulumu.
+<br>Kurumsal olarak Alarmdan Otomasyon kadar, bırakın Teknoloji sizin işlerinizi çözsün!</p><div data-dynamic-mod-container class="header-buttons-wrapper"><a class="button big color1 round" target="_self" href="#" >Çözüm Merkezi</a><a class="button big color-white round outline" target="_self" href="#" >Referanslarım</a></div>        </div>
+    </div>
+</div>
+    </div>
+    
+        <script>
+        window.mesmerizeSetHeaderTopSpacing();
+    </script>
+                    
+                                            </div>
+        </div>
+        
+    <div id='page-content' class="page-content">
+        <div class="content">
+            <div  id="overlappable-4" style="background-color: #ffffff; background-image: none;" data-label="Overlappable" data-id="overlappable-4" data-export-id="overlappable-4" data-category="overlappable" class="overlappable-4 content-section content-section-spacing" data-overlap="true">
+<div  class="gridContainer">
+<div  data-type="row" class="row spaced-cols text-center">
+<div  class="col-xs-12 col-sm-4 col-padding">
+
+<a  data-cp-link="1" href="#" target="_self"><i  class="fa icon shadow-large-black aligncenter color1 fa-android reverse round large"> </i></a>
+<div  data-type="column" class="">
+<h5  class="">AKILLI CİHAZLAR</h5>
+<p  class="">Bireysel ve Kurumsal hizmetlerim ile Evinizde lambalar dahil Ses ile kumanda edilebilirsiniz. Herşey sizin konrolünüz altında olsun
+</p>
+
+</div>
+</div>
+<div  class="col-xs-12 col-sm-4 col-padding">
+
+<i  class="fa icon fa-cogs large shadow-large-black round aligncenter reverse color1"> </i>
+<div  data-type="column" class="">
+<h5  class="">OTOMASYON</h5>
+<p  class="">Bireysel ve Kurumsal Çözümlerimiz artık sizin için düşünüyor, ister Muhasebe Çözümleri, ister Barkod yada Pos Sistemlerleri, artık Raflar sizin kontrolünüzde</p>
+
+</div>
+</div>
+<div  class="col-xs-12 col-sm-4 col-padding">
+
+<i  class="fa icon fa-magic large shadow-large-black round aligncenter reverse color1"> </i>
+<div  data-type="column" class="">
+<h5  class="">ANINDA DESTEK</h5>
+<p  class="">Eksik veya Hatalı olmaması için size 7/24 hizmet sunmaktayım! İşiniz aksamaması için anında Destek ile artık baş ağrısı kalmayacak.</p>
+
+</div>
+</div>
+</div>
+</div>
+</div><div  id="about-1" style="background-color: #f5fafd;" data-label="About" data-id="about-1" data-export-id="about-1" data-category="about" class="about-1 content-section content-section-spacing">
+<div  class="gridContainer">
+<div  class="row text-center">
+<div  class="section-title-col" data-type="column">
+<h5  class="">Eker Bilişim</h5>
+<h2  class="">Teknoloji çağı ile&nbsp;<span  href="#" style="font-weight: bold; font-family: Playfair Display, sans-serif; font-style: italic;">limitsiz imkanlarla</span>&nbsp;hayatınız daha kolay olabilir!</h2>
+<p  class="lead">Biometrik giriş kapıları, Thermal Kamera ve Alarm Sistemleri veya Ses ile ışık veya Televizyon kontrolü. Sınırsız imkanlar ile hayatınızı daha da kolaylaştırabilirsiniz. Kurumsal Çözümler ile sorunsuz şekilde ister Envanter, ister Muhasebe yada Güvenlik çözümleri… Gözünüz arkada kalmasın, herşeyden haberiniz olsun ve daha rahat bir yöntem ile çözülebilsin</p>
+<a  class="button color1" href="#" target="_self" data-cp-link="1">HEMEN BAŞVURUN!</a>
+
+</div>
+</div>
+<div  class="row">
+<div  class="bottom-xs center-xs col-xs flexbox image-group-bottom-3-img"><img  class="left-img shadow-large-black" data-size="500x300" src="/https://ugurreker.github.io/ugurreker/wp-content/uploads/2018/02/people-cv.jpg" alt="Kurumsal Çözümler" title="people-cv"> <img  class="center-img shadow-large-black" data-size="500x300" src="/https://ugurreker.github.io/ugurreker/wp-content/uploads/2018/02/people-1.jpg" alt="Otomasyon" title="people-1"> <img  class="right-img shadow-large-black" data-size="500x300" src="/https://ugurreker.github.io/ugurreker/wp-content/uploads/2018/02/misc-1.jpg" alt="Akıllı Çözümler" title="misc-1"></div>
+</div>
+</div>
+</div><div  id="features-3" style="background-color: #ffffff;" data-label="Features" data-id="features-12-card-bordered" data-export-id="features-12-card-bordered" data-category="features" class="features-12-card-bordered content-section content-section-spacing">
+<div  class="gridContainer">
+<div  class="row text-center">
+<div  class="section-title-col" data-type="column">
+<h2  class="">Size ne sunabilirim?</h2>
+<p  class="lead">20 Yıllık tecrübem ile size Telefon yazılımından tutun, şirketinizin Server kurulum ve yönetimine kadar her türlü imkanı sunabilirim, yok diye birşey yoktur, siz isteğinizi bildirim ve o çözüm sizin yardımcınız olsun.&nbsp;</p>
+
+</div>
+</div>
+<div  class="row spaced-cols" data-type="row">
+<div  class="col-sm-6">
+<div  class="card row-card bordered y-move">
+<div  class="row">
+<div  class="col-sm-fit icon-column"><i  class="fa icon color2 fa-connectdevelop large"> </i></div>
+<div  class="col-sm" data-type="column">
+<h5  class="color2">SINIRSIZ YAZILIM</h5>
+<p  class="">Biliyor muydunuz? Java yazılımı arabanızın Radyosunda dahil mevcut. Bir yazılım bütün ayarı değiştirebilir. Cihazınız istediğiniz gibi çalışsın!</p>
+
+</div>
+</div>
+</div>
+</div>
+<div  class="col-sm-6">
+<div  class="card row-card bordered y-move">
+<div  class="row">
+<div  class="col-sm-fit icon-column"><i  class="fa icon color2 fa-codepen large"> </i></div>
+<div  class="col-sm" data-type="column">
+<h5  class="color2">ÖZEL YAZILIM</h5>
+<p  class="">Bilgisayarınız yada Telefonunuz istediğiniz şekilde çalışmıyor mu? Bir yazılım bütün kullanıcı zevkinizi değiştirebilir</p>
+
+</div>
+</div>
+</div>
+</div>
+<div  class="col-sm-6">
+<div  class="card row-card bordered y-move">
+<div  class="row">
+<div  class="col-sm-fit icon-column"><i  class="fa icon color2 fa-cube large"> </i></div>
+<div  class="col-sm" data-type="column">
+<h5  class="color2">ÖZEL ÇÖZÜMLER</h5>
+<p  class="">istediğiniz şekilde Çözümlerimiz sizin isteğinize göre çalışsın, ister Saate göre çalışsın ister sesinizi dinlesin, Özel Çözümler ile sizin gelecekte gördüğünüz yöntemler ile basitleşsin!</p>
+
+</div>
+</div>
+</div>
+</div>
+<div  class="col-sm-6">
+<div  class="card row-card bordered y-move">
+<div  class="row">
+<div  class="col-sm-fit icon-column"><i  class="fa icon color2 fa-database large"> </i></div>
+<div  class="col-sm" data-type="column">
+<h5  class="color2">EŞSİZ DESTEK</h5>
+<p  class="">7/24 Destek için arkanızda birşey kalmasın, anında Destek ile gözünüz arkanızda kalmasın, ister ufak arıza ister daha fazla özellikli birşey, Eşsiz Destek ile istediğiniz şekilde olsun herşey!</p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div  id="content-13" style="background-color: #f5fafd;" data-label="Content" data-id="content-2" data-export-id="content-2" data-category="content" class="content-2 content-section content-section-spacing">
+<div  class="">
+<div  class="row middle-xs">
+<div  class="col-sm-5 bg-image shadow-large-black" data-bg="image" style="background-image: url('https://extendthemes.com/mesmerize/demos/demo-free-1/wp-content/uploads/2018/02/cropped-color-pic-1.jpg');"></div>
+<div  class="col-sm-7 full-col-left-padding full-col-right-padding">
+<div  class="row">
+<div  data-type="column" class="space-bottom-small content-title-col">
+<h5  class="">ANALIZ</h5>
+<h2  class="">BAŞARININ SIRRI</h2>
+<p  class="">Binlerce Hizmet var olmakta fakat hiç biri tam isteğimize göre çalışmıyor, bunun için ben devredeyim. Size özel hizmetlerden birkaç tanesi:</p>
+
+</div>
+</div>
+<div  class="row spaced-cols" data-type="row">
+<div  class="col-xs-6" data-type="column">
+<h5  class="end">Reklam</h5>
+<p  class="">Reklamlar ile müşterilerinize daha yakın olun</p>
+
+</div>
+<div  class="col-xs-6" data-type="column">
+<h5  class="end">İşletme danışmanlığı</h5>
+<p  class="">Şirketiniz ile Müşterileriniz arasında özel bağ kurmakta yardımcı olmaktayım</p>
+
+</div>
+<div  class="col-xs-6" data-type="column">
+<h5  class="end">Özel Mesajlar</h5>
+<p  class="">Müşterilerinize her hafta yeniliklerden bahsedin</p>
+
+</div>
+<div  class="col-xs-6" data-type="column">
+<h5  class="end">Bağlantılar</h5>
+<p  class="">Görünür olun! Size her türlü yöntemi sağlamaktayım</p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div  data-label="Portfolio" data-id="portfolio-5" data-export-id="portfolio-5" data-category="portfolio" class="portfolio-5 content-section content-section-spacing" id="portfolio-4" style="background-color: rgb(255, 255, 255); background-image: none;">
+<div  class="gridContainer">
+<div  class="row text-center">
+<div  class="section-title-col" data-type="column">
+<h2  class="">Portföy</h2>
+<p  class="lead">Hizmetimde bulunan en çok kullanılan Hizmetler</p>
+
+</div>
+</div>
+<div  class="row space-bottom spaced-cols" data-type="row">
+<div  class="col-xs-12 col-sm-4 text-center col-md-4">
+<div  class="card no-padding bordered">
+<div  data-hover-fx="portfolio-6" class="contentswap-effect">
+<div  class="initial-image"><img  data-size="500x500" src="https://extendthemes.com/mesmerize/demos/demo-free-1/wp-content/uploads/2018/02/portfolio-1.jpg"></div>
+<div  class="overlay bg-color6"></div>
+<div  class="swap-inner col-xs-12">
+<div  class="row full-height-row middle-xs middle-sm">
+<div  class="col-xs-12 text-center content-holder"><a  class="button small color2" href="#" target="_self" data-cp-link="1" rel="noopener noreferrer">Daha Fazla</a></div>
+</div>
+</div>
+</div>
+<div  class="col-xs-12">
+<div  class="space-bottom space-top" data-type="column">
+<h4  class="end">Özel Android Firmware</h4>
+<p  class="italic">Telefonunuzun kontrolü artık sizin elinizde, Telefonu siz Yönetin</p>
+
+</div>
+</div>
+</div>
+</div>
+<div  class="col-xs-12 col-sm-4 text-center col-md-4">
+<div  class="card no-padding bordered">
+<div  data-hover-fx="portfolio-6" class="contentswap-effect">
+<div  class="initial-image"><img  data-size="500x500" src="https://extendthemes.com/mesmerize/demos/demo-free-1/wp-content/uploads/2018/02/portfolio-2.jpg"></div>
+<div  class="overlay bg-color6"></div>
+<div  class="swap-inner col-xs-12">
+<div  class="row full-height-row middle-xs middle-sm">
+<div  class="col-xs-12 text-center content-holder"><a  class="button small color2" href="#" target="_self" data-cp-link="1" rel="noopener noreferrer">Daha Fazla</a></div>
+</div>
+</div>
+</div>
+<div  class="col-xs-12">
+<div  class="space-bottom space-top" data-type="column">
+<h4  class="end">Güvenlik Sistemleri</h4>
+<p  class="italic">Kamera, Thermal Kamera, Alarm, Elektrikli Panjur, Güvenlik adına hepsi!</p>
+
+</div>
+</div>
+</div>
+</div>
+<div  class="col-xs-12 col-sm-4 text-center col-md-4">
+<div  class="card no-padding bordered">
+<div  data-hover-fx="portfolio-6" class="contentswap-effect">
+<div  class="initial-image"><img  data-size="500x500" src="https://extendthemes.com/mesmerize/demos/demo-free-1/wp-content/uploads/2018/02/portfolio-3.jpg"></div>
+<div  class="overlay bg-color6"></div>
+<div  class="swap-inner col-xs-12">
+<div  class="row full-height-row middle-xs middle-sm">
+<div  class="col-xs-12 text-center content-holder"><a  class="button small color2" href="#" target="_self" data-cp-link="1" rel="noopener noreferrer">Daha Fazla</a></div>
+</div>
+</div>
+</div>
+<div  class="col-xs-12">
+<div  class="space-bottom space-top" data-type="column">
+<h4  class="end">Kurumsal POS</h4>
+<p  class="italic">Vergi kaydı ile size ücretsiz Pos Makinası Cebinizde</p>
+
+</div>
+</div>
+</div>
+</div>
+<div  class="col-xs-12 col-sm-4 text-center col-md-4">
+<div  class="card no-padding bordered">
+<div  data-hover-fx="portfolio-6" class="contentswap-effect">
+<div  class="initial-image"><img  data-size="500x500" src="https://extendthemes.com/mesmerize/demos/demo-free-1/wp-content/uploads/2018/02/portfolio-5.jpg"></div>
+<div  class="overlay bg-color6"></div>
+<div  class="swap-inner col-xs-12">
+<div  class="row full-height-row middle-xs middle-sm">
+<div  class="col-xs-12 text-center content-holder"><a  class="button small color2" href="#" target="_self" data-cp-link="1" rel="noopener noreferrer">Daha Fazla</a></div>
+</div>
+</div>
+</div>
+<div  class="col-xs-12">
+<div  class="space-bottom space-top" data-type="column">
+<h4  class="end">Barkod Sistemleri</h4>
+<p  class="italic">Envanterde ne var? Hangisi Eski, hangisi yeni? Gelir gider hakkında herşey</p>
+
+</div>
+</div>
+</div>
+</div>
+<div  class="col-xs-12 col-sm-4 text-center col-md-4">
+<div  class="card no-padding bordered">
+<div  data-hover-fx="portfolio-6" class="contentswap-effect">
+<div  class="initial-image"><img  data-size="500x500" src="https://extendthemes.com/mesmerize/demos/demo-free-1/wp-content/uploads/2018/02/portfolio-7.jpg"></div>
+<div  class="overlay bg-color6"></div>
+<div  class="swap-inner col-xs-12">
+<div  class="row full-height-row middle-xs middle-sm">
+<div  class="col-xs-12 text-center content-holder"><a  class="button small color2" href="#" target="_self" data-cp-link="1" rel="noopener noreferrer">Daha Fazla</a></div>
+</div>
+</div>
+</div>
+<div  class="col-xs-12">
+<div  class="space-bottom space-top" data-type="column">
+<h4  class="end">Modem ve Server kurulumu</h4>
+<p  class="italic">Altyapı olsun veya olmasın, size en uygun olan İnternet veya Server kurulumu</p>
+
+</div>
+</div>
+</div>
+</div>
+<div  class="col-xs-12 col-sm-4 text-center col-md-4">
+<div  class="card no-padding bordered">
+<div  data-hover-fx="portfolio-6" class="contentswap-effect">
+<div  class="initial-image"><img  data-size="500x500" src="https://extendthemes.com/mesmerize/demos/demo-free-1/wp-content/uploads/2018/02/portfolio-8.jpg"></div>
+<div  class="overlay bg-color6"></div>
+<div  class="swap-inner col-xs-12">
+<div  class="row full-height-row middle-xs middle-sm">
+<div  class="col-xs-12 text-center content-holder"><a  class="button small color2" href="#" target="_self" data-cp-link="1" rel="noopener noreferrer">Daha Fazla</a></div>
+</div>
+</div>
+</div>
+<div  class="col-xs-12">
+<div  class="space-bottom space-top" data-type="column">
+<h4  class="end">Özel Yazılımlar</h4>
+<p  class="italic">Özel yazılımlar ile istediğiniz Cihazda özel yazılım bulunsun. Görünüm veya çalışması sizin istediğiniz gibi olsun</p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div  class="row">
+<div  data-type="column" class="col-xs-12 text-center"><a  class="button color2 y-move" href="#" target="_self" data-cp-link="1">Portföylara Göz Atın</a></div>
+</div>
+</div>
+</div><div  id="testimonials-5" style="background-color: rgb(245, 250, 253); background-image: none;" data-label="Testimonials" data-id="testimonials-5" data-export-id="testimonials-5" data-category="testimonials" class="testimonials-5 content-section content-section-spacing">
+<div  class="gridContainer">
+<div  class="row">
+<div  data-type="column" class="section-title-col">
+<h2  class="">Geri Bildirimler</h2>
+<p  class="lead">Neler yapabilirim size? – Birde Geri bildirimden göz atın:</p>
+
+</div>
+</div>
+<div  class="row spaced-cols content-center-sm" data-type="row">
+<div  class="col-sm-4">
+<div  class="card y-move bordered" data-type="column">
+
+<i  class="fa fa-quote-right icon color1 small"></i>
+<p  class="text-center">Önceden Ürünlerimin günü geçiyordu ve hırsızlık oluyordu. Elektromanyetik ürün koruma ile envanterde ne var ve hangisinin günü geçecek artık uyarı olarak bilgileniyorum. Artık eleman dahi olsa Kameradan izliyorum ve ne olup geçtiğini biliyorum,&nbsp; uzaktan görevlendirebiliyorum</p>
+<img  src="https://extendthemes.com/mesmerize/demos/demo-free-1/wp-content/plugins/mesmerize-companion/theme-data/mesmerize/sections/images/team-1.jpg" class="round icon">
+<h6  class="end">Ayse Şahin</h6>
+<p  class="small italic">Şahin Market</p>
+
+</div>
+</div>
+<div  class="col-sm-4">
+<div  class="card y-move bordered" data-type="column">
+
+<i  class="fa fa-quote-right icon color1 small"></i>
+<p  class="text-center">Önceden çok hırsızlık oluyordu, gece görüş ve thermal kameralar ile artık uyarılar anında Cep Telefonuma geliyor ve anında bütün kontroller bende. Evime girmek için çilingir dahi giremiyor, yeterki çüzdanım yada Telefonum yanımda olsun, her şey sesime bakıyor</p>
+<img  src="https://extendthemes.com/mesmerize/demos/demo-free-1/wp-content/plugins/mesmerize-companion/theme-data/mesmerize/sections/images/team-2.jpg" class="round icon">
+<h6  class="end">Mehmet Tekin</h6>
+<p  class="small italic">Banka Müdürü</p>
+
+</div>
+</div>
+<div  class="col-sm-4">
+<div  class="card y-move bordered" data-type="column">
+
+<i  class="fa fa-quote-right icon color1 small"></i>
+<p  class="text-center">Ev hanımı olarak ufak bir bebekle iş zor oluyor, artık herşeyi Google ile Sesli Komutlar ile kumanda ediyorum, Bulaşık makinasını doldurup, Google sesli komu ile çamaşır makınasını çalıştırıyorum, gereksirse ışıkları bile söndürüyorum</p>
+<img  src="https://extendthemes.com/mesmerize/demos/demo-free-1/wp-content/plugins/mesmerize-companion/theme-data/mesmerize/sections/images/team-3.jpg" class="round icon">
+<h6  class="end">Fatma Çetin</h6>
+<p  class="small italic">Ev Hanımı</p>
+
+</div>
+</div>
+</div>
+</div>
+</div><div  id="cta-1" data-label="Cta" data-id="cta-blue-section" data-export-id="cta-blue-section" data-category="cta" class="cta-blue-section content-section content-section-spacing-medium bg-color1 white-text">
+<div  class="gridContainer">
+<div  class="row middle-xs">
+<div  class="col-sm-8 space-bottom-xs" data-type="column">
+<h2  class="">ÇALIŞMALARIMI BEĞENDINİZ Mİ?&nbsp;<span  class="font-300">SİZİN İÇİN HİZMET SUNAYIM!</span></h2>
+</div>
+<div  class="col-sm-4 end-sm" data-type="column"><a  class="button color2" href="#" target="_self" data-cp-link="1" rel="noopener noreferrer"> BUGÜN HİZMET ALIN! </a></div>
+</div>
+</div>
+</div><div  id="latest-news-1" style="background-color: #f5fafd;" data-label="Latest-news" data-id="blog-section" data-export-id="blog-section" data-category="latest_news" class="blog-section content-section content-section-spacing">
+<div  class="gridContainer">
+<div  class="row">
+<div  data-type="column" class="section-title-col">
+<h2  class="">Son Blog yazılarım</h2>
+<p  class="lead">Blog yazılarımdan bilmediklerinizi ve hızlı çözümleri kullanarak en kısa sürede başarılı bir sonuç elde edebilirsiniz. Takip’de kalarak bilgi bankasından faydalanabilirsiniz.</p>
+
+</div>
+</div>
+<div  class="row">
+<div  data-type="row" data-dynamic-columns="handled" data-content-shortcode="mesmerize_latest_news">        <div class="row center-sm content-left-sm">
+                    <div id="post-1" class="col-sm-6 col-md-4 space-bottom space-bottom-xs">
+                <div class="post-content card y-move bordered">
+                        <div class="post-thumbnail">
+        <a href="/https://ugurreker.github.io/ugurreker/bilgsayara-format-atma/" class="post-list-item-thumb">
+                            
+                                    <svg class="mesmerize-post-list-item-thumb-placeholder" width="890" height="580" viewbox="0 0 890 580" preserveaspectratio="none">
+                        <rect width="890" height="580" style="fill:#FF9800;"></rect>
+                    </svg>
+                                    </a>
+    </div>
+                        <div class="col-padding col-padding-xs">
+                        <h3 class="post-title space-bottom-small">
+                            <a href="/https://ugurreker.github.io/ugurreker/bilgsayara-format-atma/" rel="bookmark">
+                                Bilgisayara Format atma                            </a>
+                        </h3>
+                        <p>Bilgisayara format atmak eskisi gibi zor birişey değil, aksine artık daha da kolaylaştı. Eskiden DVD&#8217;ye İSO dosyası şeklinde yazdırmak var iken, artık Sıkıştırılmış Dosya&#8217;dan (Winzip yada Winrar) çıkartıp bunu bir[&hellip;]</p>
+                        <a class="read-more link" href="/https://ugurreker.github.io/ugurreker/bilgsayara-format-atma/">
+                            Read more                        </a>
+                    </div>
+                </div>
+            </div>
+                    <div id="post-68" class="col-sm-6 col-md-4 space-bottom space-bottom-xs">
+                <div class="post-content card y-move bordered">
+                        <div class="post-thumbnail">
+        <a href="/https://ugurreker.github.io/ugurreker/hello-world-2/" class="post-list-item-thumb">
+            <img width="1024" height="683" src="/https://ugurreker.github.io/ugurreker/wp-content/uploads/2018/02/portfolio-5-1024x683.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="/https://ugurreker.github.io/ugurreker/wp-content/uploads/2018/02/portfolio-5-1024x683.jpg 1024w, /https://ugurreker.github.io/ugurreker/wp-content/uploads/2018/02/portfolio-5-300x200.jpg 300w, /https://ugurreker.github.io/ugurreker/wp-content/uploads/2018/02/portfolio-5-768x512.jpg 768w, /https://ugurreker.github.io/ugurreker/wp-content/uploads/2018/02/portfolio-5.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" />        </a>
+    </div>
+                        <div class="col-padding col-padding-xs">
+                        <h3 class="post-title space-bottom-small">
+                            <a href="/https://ugurreker.github.io/ugurreker/hello-world-2/" rel="bookmark">
+                                Android Cihazda veri kaybetmeden sıfırlama                            </a>
+                        </h3>
+                        <p>Android Cihazınızda sıfırladığınızda bütün Telefon Numaraları, Fotoğraflar ve Uygulamar ile bütün kullanıcı verileri kaybolmaktan hepimiz bıkar duruma geldik. Artık öyle bir duruma düşmemek için Veri Yedekleme var. Bunun için Google[&hellip;]</p>
+                        <a class="read-more link" href="/https://ugurreker.github.io/ugurreker/hello-world-2/">
+                            Read more                        </a>
+                    </div>
+                </div>
+            </div>
+                    <div id="post-289" class="col-sm-6 col-md-4 space-bottom space-bottom-xs">
+                <div class="post-content card y-move bordered">
+                        <div class="post-thumbnail">
+        <a href="/https://ugurreker.github.io/ugurreker/theres-a-voice-that-keeps-on-calling-me/" class="post-list-item-thumb">
+            <img width="600" height="400" src="/https://ugurreker.github.io/ugurreker/wp-content/uploads/2018/02/color-pic-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="/https://ugurreker.github.io/ugurreker/wp-content/uploads/2018/02/color-pic-1.jpg 600w, /https://ugurreker.github.io/ugurreker/wp-content/uploads/2018/02/color-pic-1-300x200.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" />        </a>
+    </div>
+                        <div class="col-padding col-padding-xs">
+                        <h3 class="post-title space-bottom-small">
+                            <a href="/https://ugurreker.github.io/ugurreker/theres-a-voice-that-keeps-on-calling-me/" rel="bookmark">
+                                There&#8217;s a voice that keeps on calling me                            </a>
+                        </h3>
+                        <p>Ulysses, Ulysses &#8211; Soaring through all the galaxies. In search of Earth, flying in to the night. Ulysses, Ulysses &#8211; Fighting evil and tyranny, with all his power, and with[&hellip;]</p>
+                        <a class="read-more link" href="/https://ugurreker.github.io/ugurreker/theres-a-voice-that-keeps-on-calling-me/">
+                            Read more                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </div>
+</div>
+<div  class="row">
+<div  class="text-center"><a  class="button color1" data-attr-shortcode="href:mesmerize_blog_link" href="/https://ugurreker.github.io/ugurreker/blog/" target="_self" rel="noopener noreferrer">BLOG PAYLAŞIMLARIM</a></div>
+</div>
+</div>
+</div><div  id="contact-1" data-label="Contact" data-id="contact-1" data-export-id="contact-1" data-category="contact" class="contact-1 content-section content-section-spacing white-text" data-parallax-depth="20" style="background-image: url('https://extendthemes.com/mesmerize/demos/demo-free-1/wp-content/uploads/2018/02/stephan-valentin-345970.jpg'); background-size: cover; background-position: center top;">
+<div  class="gridContainer">
+<div  class="row text-center">
+<div  class="section-title-col" data-type="column">
+<h2  class="">İLETİŞİM</h2>
+<p  class="lead">İLETİŞİM FORMUNU DOLDURUN, EN KISA SÜREDE SİZE GERİ DÖNÜŞ SAĞLAYIM</p>
+
+</div>
+</div>
+<div  class="row text-center">
+<div  class="col-xs-12 col-sm-8 col-sm-offset-2 contact-form-wrapper inline-info">
+<div  class="card large-padding">
+<div  class="" data-content-shortcode="mesmerize_contact_form shortcode=&quot;contact-form-7 id=&amp;amp;quot;4&amp;amp;quot; title=&amp;amp;quot;Contact form 1&amp;amp;quot;&quot;" data-editable="true"><div role="form" class="wpcf7" id="wpcf7-f69-p65-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="/https://ugurreker.github.io/ugurreker/#wpcf7-f69-p65-o1" method="post" class="wpcf7-form demo" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="69" />
+<input type="hidden" name="_wpcf7_version" value="5.1.4" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f69-p65-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="65" />
+</div>
+<p><label> Adınız Soyadınız<br />
+    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span> </label></p>
+<p><label> E-Mail Adresiniz<br />
+    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" /></span> </label></p>
+<p><label> Konu<br />
+    <span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" /></span> </label></p>
+<p><label> Mesajınız<br />
+    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </label></p>
+<p><input type="submit" value="Gönder" class="wpcf7-form-control wpcf7-submit" /></p>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>        </div>
+    </div>
+
+	<div  class='footer footer-simple'>
+    <div  class='footer-content center-xs'>
+        <div class="gridContainer">
+	        <div class="row middle-xs footer-content-row">
+	            <div class="footer-content-col col-xs-12">
+	                    <p  class="copyright">&copy;&nbsp;&nbsp;2019&nbsp;Eker Bilişim.&nbsp;Wordpress ve <a target="_blank" href="https://extendthemes.com/go/built-with-mesmerize/" class="mesmerize-theme-link">Mesmerize temasıyla</a> oluşturulmuştur.</p>	            </div>
+	        </div>
+	    </div>
+    </div>
+</div>
+	</div>
+<script type='text/javascript'  defer="defer" src='/https://ugurreker.github.io/ugurreker/wp-content/plugins/mesmerize-companion/theme-data/mesmerize/assets/js/companion.bundle.min.js?ver=1.6.110'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/https://ugurreker.github.io/ugurreker/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.4'></script>
+<script type='text/javascript'  defer="defer" src='/https://ugurreker.github.io/ugurreker/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript'  defer="defer" src='/https://ugurreker.github.io/ugurreker/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript'  defer="defer" src='/https://ugurreker.github.io/ugurreker/wp-content/themes/mesmerize/assets/js/theme.bundle.min.js?ver=1.6.85'></script>
+<script type='text/javascript'  defer="defer" src='/https://ugurreker.github.io/ugurreker/wp-includes/js/wp-embed.min.js?ver=5.2.3'></script>
+    <script>
+        /(trident|msie)/i.test(navigator.userAgent) && document.getElementById && window.addEventListener && window.addEventListener("hashchange", function() {
+            var t, e = location.hash.substring(1);
+            /^[A-z0-9_-]+$/.test(e) && (t = document.getElementById(e)) && (/^(?:a|select|input|button|textarea)$/i.test(t.tagName) || (t.tabIndex = -1), t.focus())
+        }, !1);
+    </script>
+</body>
+</html>
